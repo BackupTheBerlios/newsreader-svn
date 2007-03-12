@@ -1,0 +1,51 @@
+POST /upload.php HTTP/1.1
+Host: peacebird.host.sk
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.2) Gecko/20070219 Firefox/2.0.0.2
+Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://peacebird.host.sk/upload.html
+Content-Type: multipart/form-data; boundary=---------------------------313042951227157
+Content-Length: 648
+
+The content is not viewable (binary data).
+
+
+
+HTTP/1.1 200 OK
+Date: Fri, 09 Mar 2007 11:01:44 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.1-pl3-gentoo
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Content-Length: 76
+Connection: close
+Content-Type: text/html
+
+File is valid, and was successfully uploaded. 83.98.244.24
+
+
+-----------------------------313042951227157
+Content-Disposition: form-data; name="MAX_FILE_SIZE"
+
+3000000
+-----------------------------313042951227157
+Content-Disposition: form-data; name="userfile"; filename="upload.php"
+Content-Type: application/octet-stream
+
+<?php  //phpinfo();
+$uploaddir = './upload/';
+//$uploaddir = '';
+$ip = getenv("remote_addr"); 
+if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploaddir . 
+	$_FILES['userfile']['name'] .'_'. $ip )) {
+    print "File is valid, and was successfully uploaded. $ip";
+} else {
+    print "There some errors!";
+}
+?>
+-----------------------------313042951227157--
+
