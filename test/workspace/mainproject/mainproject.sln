@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mainproject", "mainproject.vcproj", "{8EBEB5CC-BEF2-4E11-A7C7-D86CB1009663}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rssreader", "rssreader.vcproj", "{BF2B0EA3-02DF-4D50-A5DE-35B5248AC351}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testproject", "testproject.vcproj", "{B43E1C6F-E592-4E23-9BA8-8D6A6CC8FFBD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF2B0EA3-02DF-4D50-A5DE-35B5248AC351} = {BF2B0EA3-02DF-4D50-A5DE-35B5248AC351}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EBEB5CC-BEF2-4E11-A7C7-D86CB1009663}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8EBEB5CC-BEF2-4E11-A7C7-D86CB1009663}.Release|Win32.ActiveCfg = Release|Win32
+		{BF2B0EA3-02DF-4D50-A5DE-35B5248AC351}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF2B0EA3-02DF-4D50-A5DE-35B5248AC351}.Debug|Win32.Build.0 = Debug|Win32
+		{BF2B0EA3-02DF-4D50-A5DE-35B5248AC351}.Release|Win32.ActiveCfg = Release|Win32
+		{BF2B0EA3-02DF-4D50-A5DE-35B5248AC351}.Release|Win32.Build.0 = Release|Win32
+		{B43E1C6F-E592-4E23-9BA8-8D6A6CC8FFBD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B43E1C6F-E592-4E23-9BA8-8D6A6CC8FFBD}.Debug|Win32.Build.0 = Debug|Win32
+		{B43E1C6F-E592-4E23-9BA8-8D6A6CC8FFBD}.Release|Win32.ActiveCfg = Release|Win32
+		{B43E1C6F-E592-4E23-9BA8-8D6A6CC8FFBD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
