@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "active_object", "active_object.vcproj", "{A14FCD50-B9B9-400C-A283-C56B7A53ED3D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF2B0EA3-02DF-4D50-A5DE-35B5248AC351} = {BF2B0EA3-02DF-4D50-A5DE-35B5248AC351}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rssreader", "..\libcurl_wrapper\libcurl\bjam\workspace\mainproject\rssreader.vcproj", "{BF2B0EA3-02DF-4D50-A5DE-35B5248AC351}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A14FCD50-B9B9-400C-A283-C56B7A53ED3D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A14FCD50-B9B9-400C-A283-C56B7A53ED3D}.Debug|Win32.Build.0 = Debug|Win32
+		{A14FCD50-B9B9-400C-A283-C56B7A53ED3D}.Release|Win32.ActiveCfg = Release|Win32
+		{A14FCD50-B9B9-400C-A283-C56B7A53ED3D}.Release|Win32.Build.0 = Release|Win32
+		{BF2B0EA3-02DF-4D50-A5DE-35B5248AC351}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF2B0EA3-02DF-4D50-A5DE-35B5248AC351}.Debug|Win32.Build.0 = Debug|Win32
+		{BF2B0EA3-02DF-4D50-A5DE-35B5248AC351}.Release|Win32.ActiveCfg = Release|Win32
+		{BF2B0EA3-02DF-4D50-A5DE-35B5248AC351}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
