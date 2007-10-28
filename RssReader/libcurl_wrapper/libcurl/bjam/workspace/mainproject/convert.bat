@@ -1,0 +1,1 @@
+nconvert -out jpeg -resize 800 600 *.jpg

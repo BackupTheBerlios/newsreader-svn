@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1187868245 source:d:\projects\cpp\circle_list\main.cpp
+	<list>
+	<iostream>
+
